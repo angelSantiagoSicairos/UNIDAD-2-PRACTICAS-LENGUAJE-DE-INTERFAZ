@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PRACTICA 10. CADENA CON DECIMAL", "PRACTICA 10. CADENA CON DECIMAL\PRACTICA 10. CADENA CON DECIMAL.vcxproj", "{F56A9F35-ADCB-4084-A974-5CB9957CD81A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Debug|x64.ActiveCfg = Debug|x64
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Debug|x64.Build.0 = Debug|x64
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Debug|x86.Build.0 = Debug|Win32
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Release|x64.ActiveCfg = Release|x64
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Release|x64.Build.0 = Release|x64
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Release|x86.ActiveCfg = Release|Win32
+		{F56A9F35-ADCB-4084-A974-5CB9957CD81A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C181AAAD-327B-49FF-BA9F-9E00FABFF47F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PRACTICA 7. VALIDACION DE FORMATO", "PRACTICA 7. VALIDACION DE FORMATO\PRACTICA 7. VALIDACION DE FORMATO.vcxproj", "{B51E706A-C419-450D-98C7-18F8A47E0FAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Debug|x64.ActiveCfg = Debug|x64
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Debug|x64.Build.0 = Debug|x64
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Debug|x86.Build.0 = Debug|Win32
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Release|x64.ActiveCfg = Release|x64
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Release|x64.Build.0 = Release|x64
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Release|x86.ActiveCfg = Release|Win32
+		{B51E706A-C419-450D-98C7-18F8A47E0FAA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AD77415-DC73-4FDC-BB3D-833F5196D826}
+	EndGlobalSection
+EndGlobal
