@@ -3,10 +3,10 @@ INCLUDE Irvine32.inc
 ; Materia:     Lenguajes de Interfaz 
 ; Alumno:      Santiago Sicairos Angel Bulmaro
 ; Horario:     9:00 a 10:00 AM
-; Docente:     Dr. José Luis Medina Jiménez 
-; Práctica:    9. PUSH y POP.
-; Descripción: Programa que demuestra el uso de la pila (Stack) con las instrucciones PUSH y POP 
-;              para resguardar valores, invertir registros y manejar el paso de ejecución con procedimientos (CALL y RET).
+; Docente:     Dr. JosÃ© Luis Medina JimÃ©nez 
+; PrÃ¡ctica:    9. PUSH Y POP.
+; DescripciÃ³n: Programa que demuestra el uso de la pila (Stack) con las instrucciones PUSH y POP 
+;              para resguardar valores, invertir registros y manejar el paso de ejecuciÃ³n con procedimientos (CALL y RET).
 
 .data
 .code
@@ -33,7 +33,7 @@ main PROC
 
     call DumpRegs       ; Muestra la pila cargada con 3 elementos
 
-    pop eax             ; Saca el último ingresado (EAX = 30)
+    pop eax             ; Saca el Ãºltimo ingresado (EAX = 30)
     pop ebx             ; Saca el siguiente (EBX = 20)
     pop ecx             ; Saca el primero (ECX = 10)
 
@@ -55,7 +55,7 @@ main PROC
     mov eax, 50         ; EAX = 50
     mov ebx, 100        ; EBX = 100
 
-    call aumentarDiez   ; Empuja la dirección de retorno a la pila y salta a la subrutina
+    call aumentarDiez   ; Empuja la direcciÃ³n de retorno a la pila y salta a la subrutina
 
     call DumpRegs       ; Muestra el resultado tras volver de la subrutina (EAX = 60)
 
@@ -65,7 +65,7 @@ main ENDP
 ; --- Procedimiento secundario ---
 aumentarDiez PROC
     add eax, 10         ; Suma 10 a EAX
-    ret                 ; Saca la dirección de retorno de la pila y regresa a main
+    ret                 ; Saca la direcciÃ³n de retorno de la pila y regresa a main
 aumentarDiez ENDP
 
 END main
